@@ -1,0 +1,19 @@
+Act as an expert frontend engineer and UI/UX designer specializing in high-end entertainment portfolios. Build a premium multi-page website demo for "The Movie People," an elite entertainment studio based in Rwanda. The entire project must be contained within a single HTML file using Tailwind CSS via CDN.
+Please hardcode these exact asset URLs directly into the appropriate image and video source attributes in your generated code:
+Logo URL: https://i.ibb.co/DH6v7qcX/135820508-424008445307142-4129750934846353851-n.jpg
+Image 1 (Camera Crew): https://i.ibb.co/B72t3kJ/DSC04342.jpg
+Image 2 (Director): https://i.ibb.co/Vpq30zc6/Morocco-213.jpg
+Image 3 (Masterclass): https://i.ibb.co/mCjtFdpR/Unveiling-the-Art-of-Performance-Join-us-for-an-exclusive-journey-into-the-world-of-acting-alongside.jpg
+Background YouTube Video: https://www.youtube.com/embed/qA_XElCiND4?autoplay=1&mute=1&loop=1&playlist=qA_XElCiND4&controls=0&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&playsinline=1
+Technical & Design Instructions:
+Multi-Page Architecture (Single-File SPA): Use a sleek navbar at the top containing the logo. Use simple, vanilla JavaScript to handle page switching. Clicking "Home", "About", "Gallery", or "Contact" should toggle a 'hidden' class on the respective content sections so it feels like a real multi-page site instantly without page reloads.
+Visual Aesthetic: Dark, premium, cinematic theater vibe. Use a background of deep black (bg-black) and rich charcoals. Use pristine white and silver typography with plenty of elegant breathing room.
+Home Page Header:
+Implement a full-screen (100vh) hero section.
+Use the provided YouTube embed URL to create an embedded background player using an <iframe>. Ensure the wrapper has "pointer-events-none" and absolute positioning so it stretches full-screen behind everything and cannot be clicked by the user.
+Place a dark, semi-transparent overlay gradient over the video wrapper so the text overlay is sharply readable.
+Centered on top of the background video, display a bold headline: "THE MOVIE PEOPLE" with a subtitle: "The Next Era of Rwandan Cinema." Add a premium call-to-action button ("Explore Gallery").
+About Page Section (Hidden by default): A minimalist, typography-focused layout detailing the studio's vision in Rwanda's booming filmmaking ecosystem.
+Gallery Page Section (Hidden by default): A beautiful, dark-themed 3-column grid displaying the hardcoded Image URLs (Images 1, 2, and 3) with smooth hover scale-up effects.
+Contact Page Section (Hidden by default): A premium, minimal contact form for production inquiries.
+Return only the clean, complete HTML code containing the Tailwind CDN, the layout structure, the YouTube background implementation, and the page-switching JavaScript logic inside one single code block. Do not give markdown explanations, just the production-ready code
