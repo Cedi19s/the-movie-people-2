@@ -1,4 +1,5 @@
-{
-  "buildCommand": "pnpm --filter client build",
+{{
+  "buildCommand": "pnpm run build",
   "outputDirectory": "dist"
+}
 }
